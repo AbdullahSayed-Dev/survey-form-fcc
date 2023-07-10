@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background-image:
+        linear-gradient(rgba(61, 140, 207, 0.5),rgba(211, 174, 122, 0.5)),
+        url(https://images.unsplash.com/photo-1589802829985-817e51171b92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: white;
+}
+
+main {
+    width: 50%;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#description {
+    font-style: italic;
+}
+
+#survey-form {
+    background-color: rgba(0, 45, 85, 0.9);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.form-groub {
+    margin: 20px 0px;
+    border: none;
+}
+
+input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 120px;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+    vertical-align: middle;
+}
+
+.inline {
+    min-height: 20px;
+    min-width: 20px;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+#submit {
+    width: 100%;
+    min-height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #37af65;
+    color: white;
+    text-transform: uppercase;
+    font-size: large;
+}

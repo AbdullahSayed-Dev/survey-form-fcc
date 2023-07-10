@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeCodeCamp Survey Form</title>
+    <meta name="description" content="Thank you for taking the time to help us improve the platform">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- The START -->
+    <main>
+        <header id="header">
+            <h1 id="title">FreeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <form action="" id="survey-form">
+            <fieldset class="form-groub">
+                <label for="" id="name-label">Name <input type="text" id="name" placeholder="Enter Your Name" required></label>
+            </fieldset>
+            <fieldset class="form-groub">
+                <label for="" id="email-label">Email <input type="email" id="email" placeholder="Enter Your Email" required></label>
+            </fieldset>
+            <fieldset class="form-groub">
+                <label for="" id="number-label">Age <span>(optional)</span> <input type="number" id="number" min="13" max="90" placeholder="Age"></label>
+            </fieldset>
+            <fieldset class="form-groub">
+                <legend>Which option best describes your current role?</legend>
+                <select id="dropdown">
+                    <option>Select current role</option>
+                    <option>Full Time Job</option>
+                    <option>Full Time Learner</option>
+                    <option>Prefer not to say</option>
+                    <option>Other</option>
+                </select>
+            </fieldset>
+            <fieldset class="form-groub">
+                <legend>Would you recommend freeCodeCamp to a friend?</legend>
+                <label for=""><input type="radio" name="recommend" value="definitely" class="inline" checked> Definitely</label>
+                <label for=""><input type="radio" name="recommend" value="maybe" class="inline"> Maybe</label>
+                <label for=""><input type="radio" name="recommend" value="not sure" class="inline"> Not sure</label>
+            </fieldset>
+            <fieldset class="form-groub">
+                <legend>What is your favorite feature of freeCodeCamp?</legend>
+                <select>
+                    <option>Select an option</option>
+                    <option>Challenges</option>
+                    <option>projects</option>
+                    <option>community</option>
+                    <option>openSource</option>
+                </select>
+            </fieldset>
+            <fieldset class="form-groub">
+                <legend>What would you like to see improved? <span>(Check all that apply)</span></legend>
+                <label for=""><input type="checkbox" value="front-end-projects" class="inline">Front-end Projects</label>
+                <label for=""><input type="checkbox" value="back-end-projects" class="inline">Back-end Projects</label>
+                <label for=""><input type="checkbox" value="data-visualization" class="inline">Data Visualization</label>
+                <label for=""><input type="checkbox" value="challenges" class="inline">Challenges</label>
+                <label for=""><input type="checkbox" value="open-source-community" class="inline">Open Source Community</label>
+                <label for=""><input type="checkbox" value="gitter-help-rooms" class="inline">Gitter help rooms</label>
+                <label for=""><input type="checkbox" value="videos" class="inline">Videos</label>
+                <label for=""><input type="checkbox" value="city-meetups" class="inline">City Meetups</label>
+                <label for=""><input type="checkbox" value="wiki" class="inline">Wiki</label>
+                <label for=""><input type="checkbox" value="forum" class="inline">Forum</label>
+                <label for=""><input type="checkbox" value="additional-courses" class="inline">Additional Courses</label>
+            </fieldset>
+            <fieldset class="form-groub">
+                <legend>Any comments or suggestions?</legend>
+                <textarea name="comments" id="comments" placeholder="Enter your comment here..."></textarea>
+            </fieldset>
+            <fieldset class="form-groub">
+                <button type="submit" id="submit" value="submit">Submit</button>
+            </fieldset>
+        </form>
+    </main>
+    <!-- The END -->
+</body>
+</html>
